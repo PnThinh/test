@@ -1,0 +1,10 @@
+{% extends 'layout_link.html' %}
+{% block link %}
+{% load static %}
+
+<p>USG ID: {{ usg_id }}</p>
+<p>USG Network IP: {{ usg_network_ip }}</p>
+<p>Subscriber MAC: {{ subscriber_mac }}</p>
+<p>Port Mapping: {{ port_mapping }}</p>
+<p>Origin Server URL: {{ origin_server_url }}</p>
+{% endblock %}
